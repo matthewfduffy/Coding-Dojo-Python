@@ -9,7 +9,7 @@ y = input("Enter any whole number: ")
 count = 0
 
 for num in arr:
-    if num >= int(y):
+    if num > int(y):
         count += 1
 
 print(count)
