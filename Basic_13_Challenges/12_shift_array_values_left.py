@@ -6,6 +6,8 @@ arr = [n for n in range(1, 15, 2)]
 # print(arr)
 # Input: [1, 3, 5, 7, 9, 11, 13]
 # Output: [3, 5, 7, 9, 11, 13, 0]
+
+
 # Option 1 - using .pop and .append():
 
 arr.pop(0)

@@ -10,3 +10,8 @@ for num in arr:
     my_arr.append(num * num)
 
 print(my_arr)
+
+
+# Option 2 - using map() with lambda:
+num_arr_squared = list(map(lambda x: x*x, arr))
+print(num_arr_squared)
